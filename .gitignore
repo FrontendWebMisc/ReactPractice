@@ -1,0 +1,106 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Package manager files (optional if you want to ignore local metadata)
+.pnpm-store/
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# =========================
+# Build output
+# =========================
+dist/
+dist-ssr/
+build/
+
+# Coverage / test reports
+coverage/
+.nyc_output/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep example env file
+!.env.example
+
+# =========================
+# Vite
+# =========================
+vite.config.timestamp-*
+.vite/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Cache
+# =========================
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# =========================
+# Testing
+# =========================
+playwright-report/
+test-results/
+cypress/screenshots/
+cypress/videos/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Vim
+*.sw?
+*.swp
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Local config
+# =========================
+*.local
+
+# =========================
+# Misc
+# =========================
+tmp/
+temp/
